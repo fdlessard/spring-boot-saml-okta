@@ -1,0 +1,12 @@
+
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: spring
+    key-store: classpath:saml/keystore.jks
+    key-store-password: secret
+
+security:
+  saml2:
+    metadata-url: <your metadata url>
