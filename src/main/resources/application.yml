@@ -3,10 +3,12 @@ server:
   port: 8443
   ssl:
     enabled: true
-    key-alias: spring
-    key-store: classpath:saml/keystore.jks
-    key-store-password: secret
+    key-alias: fdlessard-key-alias
+    key-store: classpath:fdlessard-keystore.jks
+    key-store-password: fdlessard-password
 
 security:
   saml2:
-    metadata-url: <your metadata url>
+    metadata-url: classpath:metadata.xml
+#   metadata-url: https://dev-835385.okta.com/app/nadev835385_springbootauthoktasaml_2/exk16z4ecIif7ijM74x6/sso/saml
+
