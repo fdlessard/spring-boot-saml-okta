@@ -9,6 +9,5 @@ server:
 
 security:
   saml2:
-    metadata-url: classpath:metadata.xml
-#   metadata-url: https://dev-835385.okta.com/app/nadev835385_springbootauthoktasaml_2/exk16z4ecIif7ijM74x6/sso/saml
+    metadata-url: https://dev-835385.okta.com/app/exk16z4ecIif7ijM74x6/sso/saml/metadata
 
