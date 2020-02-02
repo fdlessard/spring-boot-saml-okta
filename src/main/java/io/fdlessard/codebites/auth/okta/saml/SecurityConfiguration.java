@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.auth.oktasaml;
+package io.fdlessard.codebites.auth.okta.saml;
 
 import static org.springframework.security.extensions.saml2.config.SAMLConfigurer.saml;
 

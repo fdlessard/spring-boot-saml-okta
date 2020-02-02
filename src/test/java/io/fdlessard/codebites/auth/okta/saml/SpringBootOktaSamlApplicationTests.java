@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.auth.oktasaml;
+package io.fdlessard.codebites.auth.okta.saml;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

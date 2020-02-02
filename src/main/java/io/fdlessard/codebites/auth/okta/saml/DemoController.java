@@ -1,4 +1,4 @@
-package io.fdlessard.codebites.auth.oktasaml;
+package io.fdlessard.codebites.auth.okta.saml;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
