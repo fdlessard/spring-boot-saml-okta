@@ -21,15 +21,18 @@ configurations {
 repositories {
     mavenCentral()
     maven {
-        url 'https://repo.spring.io/libs-snapshot'
+        url 'https://build.shibboleth.net/nexus/content/repositories/releases/'
     }
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'org.springframework.security.extensions:spring-security-saml-dsl:1.0.0.M3'
+
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security.extensions:spring-security-saml2-core:1.0.10.RELEASE'
+    implementation 'org.springframework.security.extensions:spring-security-saml-dsl-core:1.0.5.RELEASE'
+
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
