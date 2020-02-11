@@ -4,7 +4,7 @@ plugins {
     id 'java'
 }
 
-group = 'io.fdlessard.codebites.auth'
+group = 'io.fdlessard.codebites.saml'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -29,9 +29,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'com.okta.spring:okta-spring-boot-starter:1.3.0'
     implementation 'org.springframework.security.extensions:spring-security-saml-dsl:1.0.0.M3'
-
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'

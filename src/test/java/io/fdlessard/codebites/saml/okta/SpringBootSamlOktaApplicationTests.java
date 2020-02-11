@@ -1,10 +1,10 @@
-package io.fdlessard.codebites.auth.okta.saml;
+package io.fdlessard.codebites.saml.okta;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootOktaSamlApplicationTests {
+class SpringBootSamlOktaApplicationTests {
 
   @Test
   void contextLoads() {

@@ -1,11 +1,12 @@
-# Spring Boot Auth Okta Saml
+# Spring Boot SAML Okta
 
-https://developer.okta.com/blog/2017/03/16/spring-boot-saml
+#### Based on article: 
 
-https://stackoverflow.com/questions/36161627/spring-security-saml-with-roles-from-database
+- https://developer.okta.com/blog/2017/03/16/spring-boot-saml
 
-https://www.dontpanicblog.co.uk/2014/05/07/saml-based-single-sign-on-sso-in-spring-security-applications/
+####  References:
 
-https://github.com/oktadeveloper/okta-spring-boot-saml-example
-
-https://github.com/vdenotaris/spring-boot-security-saml-sample
+- https://stackoverflow.com/questions/36161627/spring-security-saml-with-roles-from-database
+- https://www.dontpanicblog.co.uk/2014/05/07/saml-based-single-sign-on-sso-in-spring-security-applications/
+- https://github.com/oktadeveloper/okta-spring-boot-saml-example
+- https://github.com/vdenotaris/spring-boot-security-saml-sample
