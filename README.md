@@ -14,3 +14,5 @@
 
 - https://stackoverflow.com/questions/36161627/spring-security-saml-with-roles-from-database
 
+- http://www.techsams.com/java/spring/sso/onelogin/single-sign-on-with-spring-saml.html
+
