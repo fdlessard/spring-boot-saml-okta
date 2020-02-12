@@ -1,4 +1,3 @@
-
 server:
   port: 8443
   ssl:
@@ -10,4 +9,8 @@ server:
 security:
   saml2:
     metadata-url: https://dev-835385.okta.com/app/exk16z4ecIif7ijM74x6/sso/saml/metadata
+
+logging:
+  level.io.fdlessard.codebites.saml: DEBUG
+  level.root: DEBUG
 
